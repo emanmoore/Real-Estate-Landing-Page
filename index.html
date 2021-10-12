@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   
+    <title>Real Estate Landing Page</title>
+    
+</head>
+<body>
+    
+
+<section class="showcase">
+    <header>
+        <h2 class="logo">EXIT REAL ESTATE SOLUTIONS</h2>
+        <div class="toggle"></div>
+    </header>
+        <video autoplay loop class="video-background" muted plays-inline>
+            <source src="Pexels Videos 4280.mp4" type="video/mp4">
+        </video>
+            <div class="overlay"></div>
+
+            <div class="text">
+                <h2>Homes For Sale</h2>
+                <h3>Homes For Sale Columbia</h3>
+                <p>Eric Moore's  extensive knowledge and experience in real estate over the past 5 years  provide  him a unique view of the real estate  market and market trends that he is able to share with his clients to help them make the best decisions for their needs and desires.   Based in Columbia, SC.</p>
+                <a href="#">Real Estate</a>
+                
+            </div>
+            <!-- <ul class="social">
+            <li><a href="#"><img src="twitterpic.jpg" alt=""></a></li>
+            <li><a href="#"><img src="facebookpic.png" alt=""/></a></li>
+            <li><a href="#"><img src="twitterpic.jpg" alt=""/></a></li>
+            
+            
+        </ul>-->
+</section>
+
+
+<div class="menu">
+    <ul>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Buying">Buying</a></li>
+        <li><a href="#Selling">Selling</a></li>
+        <li><a href="#Contact">Contact</a></li>
+    </ul>
+</div>
+
+<script>
+    const menuToggle = document.querySelector('.toggle');
+    const showcase = document.querySelector('.showcase');
+
+    menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+         })
+</script>
+
+
+
+
+    
+</body>
+</html>
